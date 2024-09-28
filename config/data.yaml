@@ -1,0 +1,16 @@
+# 이미지 경로 설정
+path: C:/Users/computer1/Desktop/lane/datasets
+
+# 학습 및 검증 데이터 경로 설정
+train: C:/Users/computer1/Desktop/lane/datasets/train/images
+val: C:/Users/computer1/Desktop/lane/datasets/val/images
+
+# 라벨 경로 설정
+# labels: C:/Users/computer1/Desktop/lane/datasets/train/labels
+
+# 마스크 경로 설정 (masks 폴더와 파일명을 올바르게 설정)
+masks: C:/Users/computer1/Desktop/lane/datasets/train/masks
+
+# 클래스 설정 (차선 인식이므로 클래스는 1개)
+nc: 1
+names: ['lane']
